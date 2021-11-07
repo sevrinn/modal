@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  color: firebrick;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: peachpuff;
+  padding: 20px;
+  
+}
+
+#modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  color: peachpuff;
+  background-color: firebrick;
+  padding: 30px;
+}
+
+button {
+  padding: 5px 10px;
+}
+#open-modal {
+  border: 3px solid firebrick;
+  background-color: peachpuff;
+  color: firebrick;
+}
+
+#sign-in, #close-modal, #open-modal {
+  font-weight: 900;
+}
+#sign-in {
+  border: 3px solid peachpuff;
+  background-color: peachpuff;
+  color: firebrick;
+}
+#close-modal {
+  border: 3px solid peachpuff;
+  background-color: firebrick;
+  color: peachpuff;
+}
+
+#modal-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px;
+}
+#password {
+  margin-top: 5px;
+}

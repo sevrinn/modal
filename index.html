@@ -7,21 +7,26 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div id="overlay">
-    <div id="modal">
-      <h2>Sign In</h2>
-      <input type="text" name="username" id="username" placeholder="Username">
-      <input type="text" name="password" id="password" placeholder="Password">
-      <div id="modal-btns">
-        <button id="close-modal">Cancel</button>
-        <button id="sign-in">Sign In</button>
-      </div>
-    </div> <!-- end of modal -->
-  </div> <!-- end of overlay -->
-  <nav>
-    <h1>Logo</h1>
-    <button id="open-modal">Sign In</button>
-  </nav>
+  <div class="wrapper">
+    <div id="overlay">
+      <div id="modal">
+        <h2>Sign In</h2>
+        <div id="modal-inputs">
+          <input type="text" name="username" id="username" placeholder="Username">
+          <input type="text" name="password" id="password" placeholder="Password">
+        </div>
+        <div id="modal-btns">
+          <button id="close-modal">Cancel</button>
+          <button id="sign-in">Sign In</button>
+        </div>
+      </div> <!-- end of modal -->
+    </div> <!-- end of overlay -->
+    <nav>
+      <h1>Logo</h1>
+      <button id="open-modal">Sign In</button>
+    </nav>
+  </div>
+
 <script src="index.js"></script>
 </body>
 </html>
