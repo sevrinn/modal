@@ -1,4 +1,5 @@
 # Modal Behavior
 
-Lol. Just playing around. I'm building a modal that will pop up when you click to sign in. 
-Built with HTML CSS and JavaScript. 
+This is just a basic modal that pops up with the Sign In form when you click the sign-in button.
+Built with HTML, CSS, and vanilla JavaScript.
+![modal demo]('demo.GIF')
